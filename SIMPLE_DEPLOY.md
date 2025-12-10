@@ -24,11 +24,22 @@
 
 ### 2단계: GitHub 연결 (2분)
 
-1. Space 페이지에서 **"Files and versions"** 탭
-2. **"Add file"** → **"Connect repository"** 클릭
-3. GitHub 계정 연결 (처음이면)
-4. 저장소 선택: `Junbrobro/social_chatbot`
-5. **"Connect"** 클릭
+**Space 페이지에서:**
+
+1. **상단 탭 메뉴 확인**
+   - **"Files"** 또는 **"Files and versions"** 탭 클릭
+   - 또는 우측 상단의 **"+"** 버튼 클릭
+
+2. **GitHub 연결**
+   - **"Add file"** 버튼 클릭
+   - 드롭다운에서 **"Connect repository"** 선택
+   - GitHub 계정 연결 (처음이면 인증 필요)
+   - 저장소 선택: `Junbrobro/social_chatbot`
+   - **"Connect"** 클릭
+
+**참고:** 
+- "Files" 탭이 안 보이면 페이지를 새로고침하거나 Space 생성이 완료되었는지 확인하세요
+- 또는 **"Settings"** 탭에서 **"Repository"** 섹션을 찾아보세요
 
 ### 3단계: API 키 설정 (1분)
 
