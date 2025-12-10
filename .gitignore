@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# 환경 변수
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 데이터 파일 (용량이 크므로 제외)
+data/chunks/*.json
+!data/chunks/combined_all_chunks.json
+data/vector_db/*.npy
+data/vector_db/*.bin
+data/vector_db/chroma_db/
+data/text/*.txt
+data/text/*.json
+data/original/*.pdf
+data/viz/*.html
+data/viz/*.npy
+
+# PDF 원본 파일 (용량이 크므로 제외)
+*.pdf
+
+# 로그 파일
+*.log
+output.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 임시 파일
+*.tmp
+*.bak
+
+
+
