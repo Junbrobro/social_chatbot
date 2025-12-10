@@ -43,7 +43,17 @@ export GROQ_API_KEY="your-api-key"
 
 ## 🚀 사용 방법
 
-### 방법 1: GitHub Codespaces (추천! 브라우저에서 바로 실행) 🌟
+### 방법 1: Hugging Face Spaces (가장 간단! 추천!) ⭐
+
+**배포 후 URL만 공유하면 끝!** 별도 설정 불필요
+
+1. 배포 완료 후 Space URL 접속
+2. 질문 입력
+3. 답변 확인
+
+📖 배포 방법: [SIMPLE_DEPLOY.md](SIMPLE_DEPLOY.md)
+
+### 방법 2: GitHub Codespaces (개발/테스트용) 🌟
 
 **가장 쉬운 방법!** GitHub에서 바로 실행할 수 있습니다.
 
@@ -98,20 +108,24 @@ social_chatbot/
 └── requirements.txt       # 의존성 목록
 ```
 
-## 🌐 배포 및 공유
+## 🌐 배포 및 공유 (가장 간단한 방법!)
 
-### GitHub Codespaces (가장 쉬움! ⭐)
+### ⭐ Hugging Face Spaces (추천! 가장 쉬움!)
+
+**3단계로 끝!** 클릭 몇 번으로 배포 완료
+
+1. **Space 생성**: https://huggingface.co/spaces → "New Space"
+2. **GitHub 연결**: 저장소 연결 (`Junbrobro/social_chatbot`)
+3. **API 키 설정**: Settings → Secrets → `GROQ_API_KEY` 추가
+
+**완료!** URL만 공유하면 누구나 바로 사용 가능!
+
+📖 **자세한 가이드**: [SIMPLE_DEPLOY.md](SIMPLE_DEPLOY.md) (5분 완성!)
+
+### GitHub Codespaces (개발/테스트용)
 - 저장소를 클론할 필요 없이 브라우저에서 바로 실행
 - 무료 플랜: 월 60시간 제공
 - 자세한 방법은 위의 "사용 방법" 참고
-
-### Hugging Face Spaces
-1. Hugging Face 계정 생성
-2. 새 Space 생성 (Gradio SDK)
-3. GitHub 저장소 연결 또는 파일 업로드
-4. Secrets에 `GROQ_API_KEY` 설정
-
-자세한 배포 가이드는 [DEPLOYMENT.md](DEPLOYMENT.md) 참고
 
 ## 📝 라이선스
 
