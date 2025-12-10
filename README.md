@@ -43,14 +43,39 @@ export GROQ_API_KEY="your-api-key"
 
 ## 🚀 사용 방법
 
-### 로컬 실행
+### 방법 1: GitHub Codespaces (추천! 브라우저에서 바로 실행) 🌟
+
+**가장 쉬운 방법!** GitHub에서 바로 실행할 수 있습니다.
+
+1. **Codespace 생성**
+   - 저장소 페이지에서 **"Code"** 버튼 클릭
+   - **"Codespaces"** 탭 선택
+   - **"Create codespace on main"** 클릭
+   - Codespace가 자동으로 생성되고 의존성이 설치됩니다
+
+2. **환경 변수 설정**
+   ```bash
+   export GROQ_API_KEY="your-api-key-here"
+   ```
+
+3. **웹 데모 실행**
+   ```bash
+   python web_demo.py
+   ```
+
+4. **접속**
+   - Codespace가 자동으로 포트를 포워딩합니다
+   - 포트 탭에서 "Open in Browser" 클릭하거나
+   - 터미널에 표시된 URL 클릭
+
+### 방법 2: 로컬 실행
 ```bash
 python web_demo.py
 ```
 
 브라우저에서 `http://localhost:7860` 접속
 
-### 데모 테스트
+### 방법 3: 데모 테스트
 ```bash
 python demo.py
 ```
@@ -73,7 +98,12 @@ social_chatbot/
 └── requirements.txt       # 의존성 목록
 ```
 
-## 🌐 배포
+## 🌐 배포 및 공유
+
+### GitHub Codespaces (가장 쉬움! ⭐)
+- 저장소를 클론할 필요 없이 브라우저에서 바로 실행
+- 무료 플랜: 월 60시간 제공
+- 자세한 방법은 위의 "사용 방법" 참고
 
 ### Hugging Face Spaces
 1. Hugging Face 계정 생성
